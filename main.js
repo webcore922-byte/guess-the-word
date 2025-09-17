@@ -2,7 +2,7 @@
 let gameName = "Guess The Word";
 document.title = gameName;
 document.querySelector("h1").innerHTML = gameName;
-document.querySelector("footer").innerHTML = `${gameName} Game Created By Engineer / Kenzy Mohamed`;
+document.querySelector("footer").innerHTML = `${gameName} Game Created By WebCore`;
 
 // Setting Game Options
 let numbersOfTries = 6;
@@ -186,4 +186,5 @@ document.addEventListener("keydown", handleBackspace);
 
 window.onload = function () {
   generateInput();
+
 };
