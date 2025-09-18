@@ -12,7 +12,7 @@ let numberOfHints = 2;
 
 // Manage Words
 let wordToGuess = "";
-const words = ["Create", "Update", "Delete", "kenzyy", "Branch", "Elzero", "School","joodyy","jannah"];
+const words = ["Create", "Update", "Delete", "animal", "Branch", "Elzero", "School","health","answer"];
 wordToGuess = words[Math.floor(Math.random() * words.length)].toLowerCase();
 let messageArea = document.querySelector(".message");
 
@@ -188,3 +188,4 @@ window.onload = function () {
   generateInput();
 
 };
+
